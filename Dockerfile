@@ -15,6 +15,7 @@ RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com --recv 7F0CEB10 && \
 EXPOSE 27107
 EXPOSE 443
 
+
 ADD launch.sh /launch.sh
 RUN chmod +x "/launch.sh"
 
